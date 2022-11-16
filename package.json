@@ -1,20 +1,32 @@
 {
-  "name": "skin-ini-parser",
+  "name": "osu-skin-ini",
   "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "types": "index.d.ts",
+  "files": [
+    "dist/*"
+  ],
   "scripts": {
     "build": "tsc",
     "test": "node test.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
+  "keywords": [
+    "osu",
+    "skin",
+    "ini",
+    "parser",
+    "create",
+    "write"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cyperdark/skin-ini.git"
+  },
+  "author": "cyperdark",
+  "license": "MIT",
+  "devDependencies": {
     "@types/node": "^18.11.9",
-    "ascii-art": "^2.8.5",
-    "chalk": "^4.1.2",
-    "typescript": "^4.8.4"
+    "typescript": "^4.9.3"
   }
 }
