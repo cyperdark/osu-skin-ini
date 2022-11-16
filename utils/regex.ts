@@ -1,0 +1,1 @@
+export const file_keypairs: RegExp = /(?<name>[a-zA-Z0-9]+)[ ]*:[ ]*(?<id>.+)/;
