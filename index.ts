@@ -45,7 +45,7 @@ const parse = (file_path: string): ini_type => {
 };
 
 
-const write = (input: ini_type) => {
+const write = (file_path: string, input: ini_type) => {
   let result = '//Ini parser v0.1 // cyperdark#6890 // https://github.com/cyperdark/ck-tools\n';
 
   const groups: {
@@ -108,6 +108,7 @@ const write = (input: ini_type) => {
     };
   };
 
+  write_file(file_path, result);
   return result;
 };
 
