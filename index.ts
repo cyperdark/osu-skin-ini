@@ -46,7 +46,7 @@ const parse = (file_path: string): ini_type => {
 
 
 const write = (input: ini_type) => {
-  let result = '//Formatted by ck // pepega tools // cyperdark#6890 // https://github.com/cyperdark/ck-tools\n';
+  let result = '//Ini parser v0.1 // cyperdark#6890 // https://github.com/cyperdark/ck-tools\n';
 
   const groups: {
     General: object[];
