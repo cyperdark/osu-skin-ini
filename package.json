@@ -7,6 +7,9 @@
   "files": [
     "dist/*"
   ],
+  "publishConfig": {
+    "@cyperdark:registry": "https://npm.pkg.github.com"
+  },
   "scripts": {
     "build": "tsc",
     "test": "node test.js"
